@@ -11,7 +11,7 @@ COPY . .
 RUN uv sync --frozen
 
 
-EXPOSE 8080
+EXPOSE 8501
 
 # Command to run the Streamlit app
 CMD ["uv", "run", "streamlit", "run", "main.py"]
